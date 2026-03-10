@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Counter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #fff;
+            color: #1a1a1a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .screenshot {
+            margin-bottom: 2.5rem;
+        }
+
+        .screenshot img {
+            max-width: 100%;
+            width: 90vw;
+            max-height: 80vh;
+            border-radius: 12px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background: #f5f5f5;
+            color: #1a1a1a;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: background 0.2s;
+        }
+
+        .download-btn:hover {
+            background: #e8e8e8;
+        }
+
+        .meta {
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Click Counter</h1>
+        <p class="tagline">A simple counter for macOS.</p>
+        
+        <div class="screenshot">
+            <img src="screenshot.png" alt="Click Counter app screenshot">
+        </div>
+        
+        <a href="https://github.com/adeveloperduck/idea-1/releases/tag/release" class="download-btn">Download for Mac</a>
+        
+        <p class="meta">macOS 13+</p>
+    </div>
+</body>
+</html>
