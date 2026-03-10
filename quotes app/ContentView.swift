@@ -13,13 +13,13 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if !constants.showQuote {
-                Button("Quote of the day") {
+                Button("quote me") {
                     showQuote.toggle()
                     constants.showQuote.toggle()
                 }
                 .padding()
             } else {
-                Button("go back") {
+                Button("back") {
                     showQuote.toggle()
                     constants.showQuote.toggle()
                 }
